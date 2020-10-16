@@ -17,7 +17,7 @@ const jsx = (
   <Provider store={store}>
     <AppRouter />
   </Provider>
-);
+)
 let hasRendered = false;
 const renderApp = () => {
   if (!hasRendered) {
